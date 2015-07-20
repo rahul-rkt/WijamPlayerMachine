@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uvJ-Vr-RlW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="YC7-BT-xC4">
+            <objects>
+                <viewController id="uvJ-Vr-RlW" customClass="mainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Ep-ti-2Y9"/>
+                        <viewControllerLayoutGuide type="bottom" id="LRa-Ew-WSR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eZm-Os-gX3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKa-Ce-d6d">
+                                <rect key="frame" x="60" y="140" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="tNP-P3-Ap3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="WIJAM.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="JAM:" destination="uvJ-Vr-RlW" eventType="touchUpInside" id="wOU-Vp-kxf"/>
+                                    <segue destination="2" kind="modal" id="PzJ-J2-jR6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="WI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N4e-wq-kr3">
+                                <rect key="frame" x="45" y="74" width="230" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="Iw3-d7-CWT"/>
+                                    <constraint firstAttribute="height" constant="58" id="mzo-mE-aUn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="65"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXk-hL-gwt">
+                                <rect key="frame" x="45" y="396" width="230" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="8d4-DG-XY7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Italic" family="Trebuchet MS" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZt-f4-bnC">
+                                <rect key="frame" x="140" y="348" width="40" height="40"/>
+                                <accessibility key="accessibilityConfiguration" label="Loop"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="f5I-qW-1Bq"/>
+                                    <constraint firstAttribute="height" constant="40" id="ggW-OF-hcP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" backgroundImage="Triangle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="masterDown:" destination="uvJ-Vr-RlW" eventType="touchUpInside" id="em5-2X-e5N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiE-mx-G5R">
+                                <rect key="frame" x="20" y="20" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H1d-RO-4q4"/>
+                                    <constraint firstAttribute="width" constant="60" id="sDt-UW-IQ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="15"/>
+                                <state key="normal" title="Refresh" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Refresh:" destination="uvJ-Vr-RlW" eventType="touchUpInside" id="Bnu-e5-lLO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QXk-hL-gwt" firstAttribute="top" secondItem="xZt-f4-bnC" secondAttribute="bottom" constant="8" symbolic="YES" id="6yd-UY-vT2"/>
+                            <constraint firstItem="N4e-wq-kr3" firstAttribute="leading" secondItem="QXk-hL-gwt" secondAttribute="leading" id="Jhk-3p-JbB"/>
+                            <constraint firstItem="QXk-hL-gwt" firstAttribute="trailing" secondItem="N4e-wq-kr3" secondAttribute="trailing" id="RJf-ar-InM"/>
+                            <constraint firstItem="vKa-Ce-d6d" firstAttribute="centerX" secondItem="xZt-f4-bnC" secondAttribute="centerX" id="T8L-06-mgU"/>
+                            <constraint firstItem="xZt-f4-bnC" firstAttribute="top" secondItem="vKa-Ce-d6d" secondAttribute="bottom" constant="8" symbolic="YES" id="Trs-VC-Q0h"/>
+                            <constraint firstItem="vKa-Ce-d6d" firstAttribute="centerX" secondItem="eZm-Os-gX3" secondAttribute="centerX" id="aum-57-yZa"/>
+                            <constraint firstItem="xZt-f4-bnC" firstAttribute="centerX" secondItem="QXk-hL-gwt" secondAttribute="centerX" id="eTK-so-bTN"/>
+                            <constraint firstItem="vKa-Ce-d6d" firstAttribute="top" secondItem="N4e-wq-kr3" secondAttribute="bottom" constant="8" symbolic="YES" id="gbP-2V-HO5"/>
+                            <constraint firstItem="EiE-mx-G5R" firstAttribute="top" secondItem="eZm-Os-gX3" secondAttribute="top" constant="20" symbolic="YES" id="i46-5o-4d8"/>
+                            <constraint firstItem="vKa-Ce-d6d" firstAttribute="centerY" secondItem="eZm-Os-gX3" secondAttribute="centerY" id="qRF-l7-bZq"/>
+                            <constraint firstItem="EiE-mx-G5R" firstAttribute="leading" secondItem="eZm-Os-gX3" secondAttribute="leading" constant="20" symbolic="YES" id="v8W-R3-kIZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Down" destination="xZt-f4-bnC" id="KjG-vH-p8O"/>
+                        <outlet property="JAM" destination="vKa-Ce-d6d" id="2oW-HZ-hHr"/>
+                        <outlet property="Refresh" destination="EiE-mx-G5R" id="h1i-xi-ilr"/>
+                        <outlet property="WI" destination="N4e-wq-kr3" id="xgz-4W-ykk"/>
+                        <outlet property="masterName" destination="QXk-hL-gwt" id="vXs-Bi-CAm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kJ-e9-FFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="159"/>
+        </scene>
+        <!--Player Machine View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="PlayerMachineViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r7z-b6-qJj"/>
+                        <viewControllerLayoutGuide type="bottom" id="UfJ-rM-Ne2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r53-PE-td6">
+                                <rect key="frame" x="90" y="112" width="88" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="8Ma-k1-Q5U"/>
+                                    <constraint firstAttribute="height" constant="33" id="fYY-1V-V3Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vj9-m0-T1X" userLabel="mainImage">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFW-A4-Zgu">
+                                <rect key="frame" x="20" y="20" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="k8f-9y-5D8"/>
+                                    <constraint firstAttribute="height" constant="30" id="vKf-Vz-9IE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="15"/>
+                                <state key="normal" title="QUIT" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="QUIT:" destination="2" eventType="touchUpInside" id="agx-h7-5PP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Master Connected!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s63-Kf-cHW">
+                                <rect key="frame" x="40" y="112" width="239" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="2aY-kC-9bS"/>
+                                    <constraint firstAttribute="height" constant="21" id="qmF-b5-Vk0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Italic" family="Trebuchet MS" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMg-8y-1jM">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="fZu-0K-VDX"/>
+                                    <constraint firstAttribute="height" constant="100" id="rPS-Gz-2vA"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Advanced.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="GotoAdvanced:" destination="2" eventType="touchUpInside" id="FtB-e5-Eba"/>
+                                    <segue destination="VBa-m8-aGU" kind="modal" id="TJw-lt-fOS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="vj9-m0-T1X" firstAttribute="top" secondItem="3" secondAttribute="top" id="9ba-qA-vBS"/>
+                            <constraint firstItem="TFW-A4-Zgu" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" id="Fw8-zX-LAe"/>
+                            <constraint firstItem="vj9-m0-T1X" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="L8H-hB-4ga"/>
+                            <constraint firstItem="vj9-m0-T1X" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" id="McZ-Te-8zv"/>
+                            <constraint firstItem="r53-PE-td6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="112" id="XMv-Hu-wJ8"/>
+                            <constraint firstItem="s63-Kf-cHW" firstAttribute="top" secondItem="r53-PE-td6" secondAttribute="top" id="fl6-UK-zKv"/>
+                            <constraint firstItem="gMg-8y-1jM" firstAttribute="centerY" secondItem="vj9-m0-T1X" secondAttribute="centerY" id="gQ8-Gq-gZ5"/>
+                            <constraint firstItem="s63-Kf-cHW" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="40" id="kX6-vu-YAx"/>
+                            <constraint firstItem="TFW-A4-Zgu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" id="kys-h0-1ct"/>
+                            <constraint firstItem="vj9-m0-T1X" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="ljH-TQ-j7I"/>
+                            <constraint firstItem="gMg-8y-1jM" firstAttribute="centerX" secondItem="vj9-m0-T1X" secondAttribute="centerX" id="nH1-OG-NLF"/>
+                            <constraint firstItem="r53-PE-td6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="90" id="t4g-Ui-grX"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="IBS-X7-oDj" appends="YES" id="ugw-MR-0fp"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="IMAdvanced" destination="gMg-8y-1jM" id="lAf-et-jxC"/>
+                        <outlet property="QUIT" destination="TFW-A4-Zgu" id="V9M-eS-UWR"/>
+                        <outlet property="feedbackLabel" destination="s63-Kf-cHW" id="h0P-0c-UmR"/>
+                        <outlet property="mainImage" destination="vj9-m0-T1X" id="Wpa-dY-n01"/>
+                        <outlet property="textLocation" destination="r53-PE-td6" id="bEZ-9v-Aap"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="IBS-X7-oDj">
+                    <connections>
+                        <action selector="LongPressed:" destination="2" id="u2T-J0-sYO"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="112" y="159"/>
+        </scene>
+        <!--Advanced Player-->
+        <scene sceneID="uFM-0e-ryw">
+            <objects>
+                <viewController id="VBa-m8-aGU" customClass="AdvancedPlayer" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wTC-jM-hez"/>
+                        <viewControllerLayoutGuide type="bottom" id="wdI-M6-JpP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jzy-2O-mHK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6B-aT-6ao">
+                                <rect key="frame" x="29" y="0.0" width="291" height="480"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="bE2-hh-Gon"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmg-cA-U0H">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="zQ1-Rt-otp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Simple.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToSimple:" destination="VBa-m8-aGU" eventType="touchUpInside" id="LJg-cp-LM8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByJ-O3-xwj">
+                                <rect key="frame" x="0.0" y="289" width="30" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="STy-Q4-yWi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <state key="normal" title="V" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiy-LO-LTD">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="9RX-3m-47G"/>
+                                    <constraint firstAttribute="height" constant="50" id="d3b-pT-12t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <state key="normal" title="1" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="page:" destination="VBa-m8-aGU" eventType="touchUpInside" id="xzd-Qm-JLQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-Wc-VIz">
+                                <rect key="frame" x="0.0" y="48" width="30" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hiz-3w-D7g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <state key="normal" title="2" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="page:" destination="VBa-m8-aGU" eventType="touchUpInside" id="Bzo-Q2-ROv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTP-EJ-df6">
+                                <rect key="frame" x="0.0" y="96" width="30" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hgs-59-CVV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <state key="normal" title="3" backgroundImage="ScaleButton.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="page:" destination="VBa-m8-aGU" eventType="touchUpInside" id="tY6-5z-9hH"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Q4-fX-tE9">
+                                <rect key="frame" x="-64" y="106" width="30" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="JT9-kY-gqE"/>
+                                    <constraint firstAttribute="height" constant="128" id="xNu-L9-Z2f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hm4-Wm-Slq">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="480"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Feedback Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTW-2a-duV">
+                                <rect key="frame" x="61" y="110" width="239" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="JQ9-UA-bsg"/>
+                                    <constraint firstAttribute="height" constant="21" id="Upz-32-jfo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Italic" family="Trebuchet MS" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="d6B-aT-6ao" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" id="0A2-UK-JD6"/>
+                            <constraint firstItem="nmg-cA-U0H" firstAttribute="centerY" secondItem="hm4-Wm-Slq" secondAttribute="centerY" id="5yJ-bH-Tu6"/>
+                            <constraint firstItem="Pl0-Wc-VIz" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" id="77A-SF-XKe"/>
+                            <constraint firstItem="8Q4-fX-tE9" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" constant="106" id="Kjc-kg-I9z"/>
+                            <constraint firstItem="FTP-EJ-df6" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" id="NDo-3e-lx7"/>
+                            <constraint firstItem="ByJ-O3-xwj" firstAttribute="trailing" secondItem="FTP-EJ-df6" secondAttribute="trailing" id="Vpi-z9-45c"/>
+                            <constraint firstItem="hm4-Wm-Slq" firstAttribute="bottom" secondItem="Jzy-2O-mHK" secondAttribute="bottom" id="VsL-xx-FCB"/>
+                            <constraint firstItem="8Q4-fX-tE9" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" constant="-64" id="W7W-qY-0yI"/>
+                            <constraint firstItem="d6B-aT-6ao" firstAttribute="trailing" secondItem="Jzy-2O-mHK" secondAttribute="trailing" id="Xbv-Uf-77c"/>
+                            <constraint firstAttribute="bottom" secondItem="ByJ-O3-xwj" secondAttribute="bottom" constant="141" id="Xns-Vd-hub"/>
+                            <constraint firstItem="ByJ-O3-xwj" firstAttribute="trailing" secondItem="hm4-Wm-Slq" secondAttribute="trailing" id="c0W-vk-LtR"/>
+                            <constraint firstItem="oiy-LO-LTD" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" id="dA4-Ga-8Ji"/>
+                            <constraint firstItem="Pl0-Wc-VIz" firstAttribute="trailing" secondItem="oiy-LO-LTD" secondAttribute="trailing" id="e2j-QF-RgD"/>
+                            <constraint firstItem="d6B-aT-6ao" firstAttribute="bottom" secondItem="Jzy-2O-mHK" secondAttribute="bottom" id="fbE-Mg-CP7"/>
+                            <constraint firstItem="WTW-2a-duV" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" constant="110" id="gP4-1d-cE7"/>
+                            <constraint firstItem="hm4-Wm-Slq" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" id="kXJ-nL-rQP"/>
+                            <constraint firstItem="nmg-cA-U0H" firstAttribute="centerX" secondItem="Jzy-2O-mHK" secondAttribute="centerX" id="nsb-Uu-pJd"/>
+                            <constraint firstItem="Pl0-Wc-VIz" firstAttribute="trailing" secondItem="FTP-EJ-df6" secondAttribute="trailing" id="qmS-3L-li2"/>
+                            <constraint firstItem="FTP-EJ-df6" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" constant="96" id="qpJ-AW-s5e"/>
+                            <constraint firstItem="oiy-LO-LTD" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" id="rzk-5a-bWD"/>
+                            <constraint firstAttribute="trailing" secondItem="WTW-2a-duV" secondAttribute="trailing" constant="20" symbolic="YES" id="s1w-pZ-DOg"/>
+                            <constraint firstItem="ByJ-O3-xwj" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" id="uXJ-vS-LXP"/>
+                            <constraint firstItem="hm4-Wm-Slq" firstAttribute="leading" secondItem="Jzy-2O-mHK" secondAttribute="leading" id="ufD-qd-Qas"/>
+                            <constraint firstItem="Pl0-Wc-VIz" firstAttribute="top" secondItem="Jzy-2O-mHK" secondAttribute="top" constant="48" id="vqw-59-ueI"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WcT-7w-7xF" appends="YES" id="YOb-AB-Isd"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="EDv-sQ-dZJ"/>
+                    <connections>
+                        <outlet property="Button1" destination="oiy-LO-LTD" id="ucE-iT-C5h"/>
+                        <outlet property="Button2" destination="Pl0-Wc-VIz" id="KZR-Cr-bhF"/>
+                        <outlet property="Button3" destination="FTP-EJ-df6" id="dbN-vC-yex"/>
+                        <outlet property="ButtonV" destination="ByJ-O3-xwj" id="i2C-BU-Aqf"/>
+                        <outlet property="SideImage" destination="hm4-Wm-Slq" id="ELm-iS-MkT"/>
+                        <outlet property="SimpleButton" destination="nmg-cA-U0H" id="d9j-IR-ba0"/>
+                        <outlet property="feedbackLabel" destination="WTW-2a-duV" id="idg-PF-dfy"/>
+                        <outlet property="mainImage" destination="d6B-aT-6ao" id="Jge-3v-BIw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwz-Jp-lTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="WcT-7w-7xF">
+                    <connections>
+                        <action selector="LongPressed:" destination="VBa-m8-aGU" id="iAk-rG-NSl"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="520" y="159"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Advanced.png" width="100" height="100"/>
+        <image name="ScaleButton.png" width="100" height="50"/>
+        <image name="Simple.png" width="100" height="100"/>
+        <image name="Triangle.png" width="50" height="50"/>
+        <image name="WIJAM.png" width="200" height="200"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

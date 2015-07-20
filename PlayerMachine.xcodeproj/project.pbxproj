@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900C10D517C4A8F200BE46AF /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900C10D017C4A8F200BE46AF /* PGMidi.mm */; };
+		900C10D617C4A8F200BE46AF /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900C10D217C4A8F200BE46AF /* PGMidiAllSources.mm */; };
+		900C10D717C4A8F200BE46AF /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900C10D417C4A8F200BE46AF /* PGMidiFind.mm */; };
+		900C10DC17C4AD5200BE46AF /* AdvancedPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 900C10D917C4AD5200BE46AF /* AdvancedPlayer.m */; };
+		900C10DD17C4AD5200BE46AF /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 900C10DB17C4AD5200BE46AF /* mainViewController.m */; };
+		900C10DF17C4AD8200BE46AF /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900C10DE17C4AD8100BE46AF /* CoreMIDI.framework */; };
+		901E8CF717C5FD4D006E1913 /* ScaleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 901E8CF617C5FD4D006E1913 /* ScaleButton.png */; };
+		901E8CF917C5FD56006E1913 /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 901E8CF817C5FD56006E1913 /* Triangle.png */; };
+		901E8CFE17C60F59006E1913 /* Triangle_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 901E8CFD17C60F59006E1913 /* Triangle_180.png */; };
+		902E407B17C200D20038DEDD /* WIJAM.png in Resources */ = {isa = PBXBuildFile; fileRef = 902E407A17C200D20038DEDD /* WIJAM.png */; };
+		9035444717BF7D4000881C6B /* Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035444617BF7D4000881C6B /* Drawing.m */; };
+		903770E917C0C91200F42DFA /* Simple.png in Resources */ = {isa = PBXBuildFile; fileRef = 903770E817C0C91200F42DFA /* Simple.png */; };
+		9056430517CB43C800248E72 /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 905642FE17CB43C800248E72 /* Communicator.m */; };
+		9056430617CB43C800248E72 /* MIDINote.m in Sources */ = {isa = PBXBuildFile; fileRef = 9056430017CB43C800248E72 /* MIDINote.m */; };
+		9056430717CB43C800248E72 /* NoteNumDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 9056430217CB43C800248E72 /* NoteNumDict.m */; };
+		9056430A17CB445500248E72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056430917CB445500248E72 /* AudioToolbox.framework */; };
+		9056430C17CB445C00248E72 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056430B17CB445C00248E72 /* CoreAudio.framework */; };
+		9056430E17CB446300248E72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9056430D17CB446300248E72 /* AVFoundation.framework */; };
+		905E2D4517C088250020AAFB /* Advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 905E2D4417C088250020AAFB /* Advanced.png */; };
+		90794DA21820A73200E67485 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90794DA11820A73200E67485 /* Images.xcassets */; };
+		9094412B17BB286800F3A0FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9094412A17BB286800F3A0FD /* UIKit.framework */; };
+		9094412D17BB286800F3A0FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9094412C17BB286800F3A0FD /* Foundation.framework */; };
+		9094412F17BB286800F3A0FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9094412E17BB286800F3A0FD /* CoreGraphics.framework */; };
+		9094413517BB286800F3A0FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9094413317BB286800F3A0FD /* InfoPlist.strings */; };
+		9094413717BB286800F3A0FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9094413617BB286800F3A0FD /* main.m */; };
+		9094413B17BB286800F3A0FD /* PlayerMachineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9094413A17BB286800F3A0FD /* PlayerMachineAppDelegate.m */; };
+		9094413D17BB286800F3A0FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9094413C17BB286800F3A0FD /* Default.png */; };
+		9094413F17BB286800F3A0FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9094413E17BB286800F3A0FD /* Default@2x.png */; };
+		9094414117BB286800F3A0FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9094414017BB286800F3A0FD /* Default-568h@2x.png */; };
+		9094414417BB286800F3A0FD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9094414217BB286800F3A0FD /* MainStoryboard.storyboard */; };
+		9094414717BB286800F3A0FD /* PlayerMachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9094414617BB286800F3A0FD /* PlayerMachineViewController.m */; };
+		90E4BCE91820A80C00BCAEB7 /* WIJAM@114.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E4BCE71820A80C00BCAEB7 /* WIJAM@114.png */; };
+		90E4BCEA1820A80C00BCAEB7 /* WIJAM@120.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E4BCE81820A80C00BCAEB7 /* WIJAM@120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900C10CD17C4A8F200BE46AF /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
+		900C10CE17C4A8F200BE46AF /* PGArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGArc.h; sourceTree = "<group>"; };
+		900C10CF17C4A8F200BE46AF /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
+		900C10D017C4A8F200BE46AF /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
+		900C10D117C4A8F200BE46AF /* PGMidiAllSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiAllSources.h; sourceTree = "<group>"; };
+		900C10D217C4A8F200BE46AF /* PGMidiAllSources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiAllSources.mm; sourceTree = "<group>"; };
+		900C10D317C4A8F200BE46AF /* PGMidiFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiFind.h; sourceTree = "<group>"; };
+		900C10D417C4A8F200BE46AF /* PGMidiFind.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiFind.mm; sourceTree = "<group>"; };
+		900C10D817C4AD5200BE46AF /* AdvancedPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPlayer.h; sourceTree = "<group>"; };
+		900C10D917C4AD5200BE46AF /* AdvancedPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPlayer.m; sourceTree = "<group>"; };
+		900C10DA17C4AD5200BE46AF /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		900C10DB17C4AD5200BE46AF /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		900C10DE17C4AD8100BE46AF /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		901E8CF617C5FD4D006E1913 /* ScaleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScaleButton.png; sourceTree = "<group>"; };
+		901E8CF817C5FD56006E1913 /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
+		901E8CFD17C60F59006E1913 /* Triangle_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle_180.png; sourceTree = "<group>"; };
+		902E407A17C200D20038DEDD /* WIJAM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WIJAM.png; sourceTree = "<group>"; };
+		9035444517BF7D4000881C6B /* Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawing.h; sourceTree = "<group>"; };
+		9035444617BF7D4000881C6B /* Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawing.m; sourceTree = "<group>"; };
+		903770E817C0C91200F42DFA /* Simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Simple.png; sourceTree = "<group>"; };
+		905642FD17CB43C800248E72 /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communicator.h; sourceTree = "<group>"; };
+		905642FE17CB43C800248E72 /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communicator.m; sourceTree = "<group>"; };
+		905642FF17CB43C800248E72 /* MIDINote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDINote.h; sourceTree = "<group>"; };
+		9056430017CB43C800248E72 /* MIDINote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDINote.m; sourceTree = "<group>"; };
+		9056430117CB43C800248E72 /* NoteNumDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteNumDict.h; sourceTree = "<group>"; };
+		9056430217CB43C800248E72 /* NoteNumDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteNumDict.m; sourceTree = "<group>"; };
+		9056430917CB445500248E72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9056430B17CB445C00248E72 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		9056430D17CB446300248E72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		905E2D4417C088250020AAFB /* Advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advanced.png; sourceTree = "<group>"; };
+		90794DA11820A73200E67485 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		907D9FB417BE033B00147DBC /* Definition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
+		9094412717BB286800F3A0FD /* WIJAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9094412A17BB286800F3A0FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9094412C17BB286800F3A0FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9094412E17BB286800F3A0FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9094413217BB286800F3A0FD /* PlayerMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayerMachine-Info.plist"; sourceTree = "<group>"; };
+		9094413417BB286800F3A0FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9094413617BB286800F3A0FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9094413817BB286800F3A0FD /* PlayerMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayerMachine-Prefix.pch"; sourceTree = "<group>"; };
+		9094413917BB286800F3A0FD /* PlayerMachineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerMachineAppDelegate.h; sourceTree = "<group>"; };
+		9094413A17BB286800F3A0FD /* PlayerMachineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerMachineAppDelegate.m; sourceTree = "<group>"; };
+		9094413C17BB286800F3A0FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9094413E17BB286800F3A0FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9094414017BB286800F3A0FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9094414317BB286800F3A0FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9094414517BB286800F3A0FD /* PlayerMachineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerMachineViewController.h; sourceTree = "<group>"; };
+		9094414617BB286800F3A0FD /* PlayerMachineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerMachineViewController.m; sourceTree = "<group>"; };
+		90E4BCE71820A80C00BCAEB7 /* WIJAM@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WIJAM@114.png"; sourceTree = "<group>"; };
+		90E4BCE81820A80C00BCAEB7 /* WIJAM@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WIJAM@120.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9094412417BB286800F3A0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9056430E17CB446300248E72 /* AVFoundation.framework in Frameworks */,
+				9056430C17CB445C00248E72 /* CoreAudio.framework in Frameworks */,
+				9056430A17CB445500248E72 /* AudioToolbox.framework in Frameworks */,
+				900C10DF17C4AD8200BE46AF /* CoreMIDI.framework in Frameworks */,
+				9094412B17BB286800F3A0FD /* UIKit.framework in Frameworks */,
+				9094412D17BB286800F3A0FD /* Foundation.framework in Frameworks */,
+				9094412F17BB286800F3A0FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900C10CC17C4A8F200BE46AF /* PGMidi */ = {
+			isa = PBXGroup;
+			children = (
+				900C10CD17C4A8F200BE46AF /* iOSVersionDetection.h */,
+				900C10CE17C4A8F200BE46AF /* PGArc.h */,
+				900C10CF17C4A8F200BE46AF /* PGMidi.h */,
+				900C10D017C4A8F200BE46AF /* PGMidi.mm */,
+				900C10D117C4A8F200BE46AF /* PGMidiAllSources.h */,
+				900C10D217C4A8F200BE46AF /* PGMidiAllSources.mm */,
+				900C10D317C4A8F200BE46AF /* PGMidiFind.h */,
+				900C10D417C4A8F200BE46AF /* PGMidiFind.mm */,
+			);
+			name = PGMidi;
+			path = PlayerMachine/PGMidi;
+			sourceTree = "<group>";
+		};
+		9094411E17BB286800F3A0FD = {
+			isa = PBXGroup;
+			children = (
+				900C10CC17C4A8F200BE46AF /* PGMidi */,
+				9094413017BB286800F3A0FD /* PlayerMachine */,
+				9094412917BB286800F3A0FD /* Frameworks */,
+				9094412817BB286800F3A0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9094412817BB286800F3A0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9094412717BB286800F3A0FD /* WIJAM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9094412917BB286800F3A0FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9056430D17CB446300248E72 /* AVFoundation.framework */,
+				9056430B17CB445C00248E72 /* CoreAudio.framework */,
+				9056430917CB445500248E72 /* AudioToolbox.framework */,
+				900C10DE17C4AD8100BE46AF /* CoreMIDI.framework */,
+				9094412A17BB286800F3A0FD /* UIKit.framework */,
+				9094412C17BB286800F3A0FD /* Foundation.framework */,
+				9094412E17BB286800F3A0FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9094413017BB286800F3A0FD /* PlayerMachine */ = {
+			isa = PBXGroup;
+			children = (
+				900C10D817C4AD5200BE46AF /* AdvancedPlayer.h */,
+				900C10D917C4AD5200BE46AF /* AdvancedPlayer.m */,
+				900C10DA17C4AD5200BE46AF /* mainViewController.h */,
+				900C10DB17C4AD5200BE46AF /* mainViewController.m */,
+				9094414517BB286800F3A0FD /* PlayerMachineViewController.h */,
+				9094414617BB286800F3A0FD /* PlayerMachineViewController.m */,
+				9094414217BB286800F3A0FD /* MainStoryboard.storyboard */,
+				907D9FB417BE033B00147DBC /* Definition.h */,
+				9035444517BF7D4000881C6B /* Drawing.h */,
+				9035444617BF7D4000881C6B /* Drawing.m */,
+				905642FD17CB43C800248E72 /* Communicator.h */,
+				905642FE17CB43C800248E72 /* Communicator.m */,
+				905642FF17CB43C800248E72 /* MIDINote.h */,
+				9056430017CB43C800248E72 /* MIDINote.m */,
+				9056430117CB43C800248E72 /* NoteNumDict.h */,
+				9056430217CB43C800248E72 /* NoteNumDict.m */,
+				9094413917BB286800F3A0FD /* PlayerMachineAppDelegate.h */,
+				9094413A17BB286800F3A0FD /* PlayerMachineAppDelegate.m */,
+				90794DA11820A73200E67485 /* Images.xcassets */,
+				9094413117BB286800F3A0FD /* Supporting Files */,
+			);
+			path = PlayerMachine;
+			sourceTree = "<group>";
+		};
+		9094413117BB286800F3A0FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90E4BCE71820A80C00BCAEB7 /* WIJAM@114.png */,
+				90E4BCE81820A80C00BCAEB7 /* WIJAM@120.png */,
+				901E8CFD17C60F59006E1913 /* Triangle_180.png */,
+				901E8CF817C5FD56006E1913 /* Triangle.png */,
+				901E8CF617C5FD4D006E1913 /* ScaleButton.png */,
+				902E407A17C200D20038DEDD /* WIJAM.png */,
+				903770E817C0C91200F42DFA /* Simple.png */,
+				905E2D4417C088250020AAFB /* Advanced.png */,
+				9094413217BB286800F3A0FD /* PlayerMachine-Info.plist */,
+				9094413317BB286800F3A0FD /* InfoPlist.strings */,
+				9094413617BB286800F3A0FD /* main.m */,
+				9094413817BB286800F3A0FD /* PlayerMachine-Prefix.pch */,
+				9094413C17BB286800F3A0FD /* Default.png */,
+				9094413E17BB286800F3A0FD /* Default@2x.png */,
+				9094414017BB286800F3A0FD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9094412617BB286800F3A0FD /* PlayerMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9094414A17BB286800F3A0FD /* Build configuration list for PBXNativeTarget "PlayerMachine" */;
+			buildPhases = (
+				9094412317BB286800F3A0FD /* Sources */,
+				9094412417BB286800F3A0FD /* Frameworks */,
+				9094412517BB286800F3A0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayerMachine;
+			productName = PlayerMachine;
+			productReference = 9094412717BB286800F3A0FD /* WIJAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9094411F17BB286800F3A0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PlayerMachine;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rkthakur;
+				TargetAttributes = {
+					9094412617BB286800F3A0FD = {
+						DevelopmentTeam = 864XSL2U7M;
+					};
+				};
+			};
+			buildConfigurationList = 9094412217BB286800F3A0FD /* Build configuration list for PBXProject "PlayerMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9094411E17BB286800F3A0FD;
+			productRefGroup = 9094412817BB286800F3A0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9094412617BB286800F3A0FD /* PlayerMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9094412517BB286800F3A0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9094413517BB286800F3A0FD /* InfoPlist.strings in Resources */,
+				9094413D17BB286800F3A0FD /* Default.png in Resources */,
+				9094413F17BB286800F3A0FD /* Default@2x.png in Resources */,
+				9094414117BB286800F3A0FD /* Default-568h@2x.png in Resources */,
+				9094414417BB286800F3A0FD /* MainStoryboard.storyboard in Resources */,
+				90E4BCEA1820A80C00BCAEB7 /* WIJAM@120.png in Resources */,
+				905E2D4517C088250020AAFB /* Advanced.png in Resources */,
+				903770E917C0C91200F42DFA /* Simple.png in Resources */,
+				90E4BCE91820A80C00BCAEB7 /* WIJAM@114.png in Resources */,
+				902E407B17C200D20038DEDD /* WIJAM.png in Resources */,
+				901E8CF717C5FD4D006E1913 /* ScaleButton.png in Resources */,
+				90794DA21820A73200E67485 /* Images.xcassets in Resources */,
+				901E8CF917C5FD56006E1913 /* Triangle.png in Resources */,
+				901E8CFE17C60F59006E1913 /* Triangle_180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9094412317BB286800F3A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9094413717BB286800F3A0FD /* main.m in Sources */,
+				9094413B17BB286800F3A0FD /* PlayerMachineAppDelegate.m in Sources */,
+				9094414717BB286800F3A0FD /* PlayerMachineViewController.m in Sources */,
+				9035444717BF7D4000881C6B /* Drawing.m in Sources */,
+				900C10D517C4A8F200BE46AF /* PGMidi.mm in Sources */,
+				900C10D617C4A8F200BE46AF /* PGMidiAllSources.mm in Sources */,
+				900C10D717C4A8F200BE46AF /* PGMidiFind.mm in Sources */,
+				900C10DC17C4AD5200BE46AF /* AdvancedPlayer.m in Sources */,
+				900C10DD17C4AD5200BE46AF /* mainViewController.m in Sources */,
+				9056430517CB43C800248E72 /* Communicator.m in Sources */,
+				9056430617CB43C800248E72 /* MIDINote.m in Sources */,
+				9056430717CB43C800248E72 /* NoteNumDict.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9094413317BB286800F3A0FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9094413417BB286800F3A0FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9094414217BB286800F3A0FD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9094414317BB286800F3A0FD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9094414817BB286800F3A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9094414917BB286800F3A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9094414B17BB286800F3A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayerMachine/PlayerMachine-Prefix.pch";
+				INFOPLIST_FILE = "PlayerMachine/PlayerMachine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = WIJAM;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9094414C17BB286800F3A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayerMachine/PlayerMachine-Prefix.pch";
+				INFOPLIST_FILE = "PlayerMachine/PlayerMachine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = WIJAM;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9094412217BB286800F3A0FD /* Build configuration list for PBXProject "PlayerMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9094414817BB286800F3A0FD /* Debug */,
+				9094414917BB286800F3A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9094414A17BB286800F3A0FD /* Build configuration list for PBXNativeTarget "PlayerMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9094414B17BB286800F3A0FD /* Debug */,
+				9094414C17BB286800F3A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9094411F17BB286800F3A0FD /* Project object */;
+}
